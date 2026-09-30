@@ -1,16 +1,21 @@
-cmake_minimum_required(VERSION 4.2)
-project(LearnC__)
+cmake_minimum_required(VERSION 3.20)
+project(LearnDataStructs)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(LearnC__ posicionesPunteros.cpp
-        aritmeticaPunteros.cpp
-        caracteresPunteros.cpp
-        new.cpp
-        nodos.cpp
-        ejercicioPila.cpp
-        colas.cpp
-        ejercicioCola.cpp
-        ejercicioColasBanco.cpp
-        listasEnlasadas.cpp
-        ejercicioSorteoCochera.cpp)
+add_executable(posicionesPunteros posicionesPunteros.cpp)
+add_executable(aritmeticaPunteros aritmeticaPunteros.cpp)
+add_executable(caracteresPunteros caracteresPunteros.cpp)
+add_executable(new_operador new.cpp)
+add_executable(nodos nodos.cpp)
+add_executable(ejercicioPila ejercicioPila.cpp)
+add_executable(colas colas.cpp)
+add_executable(ejercicioCola ejercicioCola.cpp)
+add_executable(ejercicioColasBanco ejercicioColasBanco.cpp)
+add_executable(listasEnlasadas listasEnlasadas.cpp)
+add_executable(listaSimple listaSimple.cpp)
+add_executable(ejercicioSorteoCochera ejercicioSorteoCochera.cpp)
+add_executable(arbolBinario arbolBinario.cpp)
+add_executable(ejercicioDosListasIguales ejercicioDosListasIguales.cpp)
+add_executable(ejercicioMayorMenor ejercicioMayorMenor.cpp)
