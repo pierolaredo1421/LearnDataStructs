@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdint>
 using namespace std;
 
 int main(int argc, char *argv[]) {
@@ -10,7 +11,7 @@ int main(int argc, char *argv[]) {
     cout << "p: " << uintptr_t(p) << endl;
 
     // cambia el valor de p haciendo que pase de T[0] a T[1]
-    p = p + 1; 
+    p = p + 1;
     cout << "p: " << *p << endl;
 
     // lee el valor de p mas adelnate (+1) sin necesidad de cambiar el valor de p

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdint>
 using namespace std;
 
 int a = 5, b = 8, c;
